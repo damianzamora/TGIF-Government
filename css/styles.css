@@ -1,0 +1,250 @@
+*{
+    padding: 0%;
+    margin: 0%;
+ }
+
+.content{
+    min-width: 100vh;
+    min-height: 90vh;  
+}
+
+
+.header{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+}
+
+.caja1header{
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+}.caja2header{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+nav{
+    display: flex;
+    min-height: 9vh;
+    width: 100%;
+    border: 1px solid lightgray;
+} 
+
+a{
+    
+    text-decoration: none;
+    color: black !important;
+    
+    
+    
+}
+
+.mainIndexGeneral{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;    
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.mainIndex1 {
+    min-height: 70vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.mainIndex2{
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainIndexData{
+    min-height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    height:5vh;
+    width: 100%;
+    background-color: lightgray;
+    
+    
+
+    }
+footer p{
+    color:black  
+}    
+
+
+table,td,th{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse:collapse;
+}
+
+
+.filtros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1em;
+    padding: 1em;        
+}
+
+.formFiltro{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1em;
+    align-items: center;
+}
+
+.mainIndex2 img{
+    height: 70%;
+}
+
+
+
+/*resto de las paginas*/
+
+.mainGeneral2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height:90vh;
+    padding-top: 1em;
+    }
+
+.mainGeneral2Caja1{
+    display: flex;
+    width: 100%;
+    min-height: 50%;
+    gap:80px;
+    margin-bottom: 20px;
+    
+}
+
+.mainGeneral2Caja2{
+    display: flex;
+    width: 100%;
+    height:50%;
+    gap:40px;
+   
+}
+
+.botonIndex{    
+    height:3em;
+    width: 10em;
+    border: 1px solid lightgray;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+}
+
+.card2{
+    width: 100% !important;
+}
+
+.texto1{
+    width: 50%;
+}
+
+.tabla2{
+    width: 50%;
+}
+
+
+
+/*/////////////////////////////////////MEDIA QUERY/////////////////////*/
+
+@media screen and (max-width: 998px) {
+
+    .mainIndexGeneral{
+        width: 100%;
+        min-height: 70vh;
+        display: flex;    
+        flex-direction: column;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .mainIndex1 {
+        min-height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+    }
+
+    .mainIndex2{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .filtros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 1em;
+        padding: 1em;        
+    }
+
+    .formFiltro{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainGeneral2Caja1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 50%;       
+    }
+    
+    .mainGeneral2Caja2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:50%;               
+    }
+
+    .texto1{
+        width: 100% !important;
+    }
+
+    .tabla2{
+        width: 100%;
+    }
+    
+    
+}
+
